@@ -1,3 +1,4 @@
+
 .navbar-custom{
   background-color: #385B9F;
   border-color: transparent;
@@ -46,6 +47,7 @@ img{
 section {
   padding: 100px 0;
 }
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -67,4 +69,29 @@ section h3.section-subheading {
 .about-heading {
   margin: 15px 0;
   text-transform: none;
+}
+#schedule, #varsity{
+  background-color: #e6f3f7; 
+}
+.panels{
+  overflow-y: auto;
+  width: 600px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+#schedule .panel .panel-heading{
+  background-color: #385B9F;
+  color: white;
+}
+.panel-heading{
+  padding: 10px 15px;
+  border bottom: 1px;
+}
+#footer{
+  background: black;
+}
+#footer h4{
+  font-size: 12px;
+  padding:5px;
+  color:white;
 }
