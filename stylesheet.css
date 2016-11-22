@@ -2,9 +2,32 @@
 	color: #660066;
 }
 
-.title {
-	text-align: center;
-	background-color: black;
-	color: #660066;
+header {
+  text-align: center;
+  background: black;
+  color: white;
 }
-	
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+header .img-centered{
+	max-width: 50px;
+	max-height: 50px;
+	display: center;
+	padding-bottom: 10px;
+}
+img{
+	vertical-align: middle;
+}
