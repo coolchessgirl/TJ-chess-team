@@ -1,18 +1,16 @@
-/*color scheme: black, white, #7F909A, #ED6639, #385B9F*/
-
 .navbar-custom{
-	background-color: #385B9F;
-	border-color: transparent;
+  background-color: #385B9F;
+  border-color: transparent;
 }
 .navbar-custom .navbar-brand{
-	color: white;
+  color: white;
 }
 .navbar .nav > li > a:hover{
-	color: #ED6639;
+  color: #ED6639;
 }
 
 .navbar-custom .nav li a{
-	color: white;
+  color: white;
 }
 
 header {
@@ -37,30 +35,36 @@ header .intro-text .description {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header .img-centered{
-	max-width: 70px;
-	max-height: 70px;
-	display: center;
-	padding-bottom: 10px;
+  max-width: 70px;
+  max-height: 70px;
+  display: center;
+  padding-bottom: 10px;
 }
 img{
-	vertical-align: middle;
+  vertical-align: middle;
 }
-section{
-	padding: 100px;
-	background-color: #7F909A;
+section {
+  padding: 100px 0;
 }
-section h2.section-heading {	
-  	font-size: 40px;
-  	margin-top: 0;
- 	margin-bottom: 40px;
- 	color: black;
- 	font-weight:bold;
- 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
- 	
- 	text-transform: uppercase;
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
 }
 .about-heading {
   margin: 15px 0;
   text-transform: none;
-  color: black;
 }
