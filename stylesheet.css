@@ -75,7 +75,7 @@ section h3.section-subheading {
 }
 .panels{
   overflow-y: auto;
-  width: 50em;
+  max-width: 80%;
   max-height: 400px;
   margin: 0 auto;
 }
